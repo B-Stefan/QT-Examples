@@ -16,7 +16,7 @@ Requirements
         brew install cmake
         brew install qt5
     
-    ``
+    ```
 
 2. Set up your **CMAKE_PREFIX_PATH** to your local folder 
 

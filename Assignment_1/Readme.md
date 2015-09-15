@@ -39,3 +39,6 @@ Create a c++ class that inherits from GObject and separate definition and implem
 
 ![Image](../results/Result-1-1-4.png?raw=true)
 
+I'm confused about the output here, because the *qdebug()* output *Construcor* is direct before the deconstructors and not before the output of the dynamic object. 
+I think it it because qDebug execute something in an other thread use some other async mechanismen. The next screenshot shows the result with *cout* instead of  *qDebug()*. The *constructor* output is always at the right position
+![Image](../../blob/1-1-4-cout-test/results/Result-1-1-4.png?raw=true)

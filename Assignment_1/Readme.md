@@ -29,7 +29,7 @@ But for some tasks they are necessary and very fast.
 ![Image](../results/Result-1-1-3.png?raw=true)
 
 After this task I was a little bit confused because QT did not delte the books before the program destroyed. 
-So I decide to do this manual, in the [Task 4](#Task-4---Classes)
+So I decide to do this manual, in the [Task 4](#task-4---classes)
 
 In the example data is one key used twice this is the reason why on the screenshot only 4 books shown 
 

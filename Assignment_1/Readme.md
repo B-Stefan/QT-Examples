@@ -3,8 +3,8 @@
 * Autor:    Stefan Bieliauskas
 * Date:     15.09.2015
 
-You find the results in the ./../results folder as screenshots.
-For further information read the ./../Readme.md.
+All results can find in the [results](../results) folder as screenshots.
+For further information read the [Readme.md](../Readme.md)
 
 
 ## Task 1 - RegEx 

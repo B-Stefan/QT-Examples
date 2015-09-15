@@ -42,13 +42,21 @@ Requirements
 **Not tested jet!**
 
 1. Install required software
-2. 
+ 
     ```
         sudo apt-get install cmake
         sudo apt-get install qt5-default qttools5-dev-tools
     
     ```
+2. cmake 
+
+    Open main folder in Terminal 
     
+    ```
+        $ cmake ./ 
+        $ make
+    
+    ```
 ###Mobile-Setup 
 
 Not tested jet! 

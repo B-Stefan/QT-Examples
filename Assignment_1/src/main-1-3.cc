@@ -20,7 +20,7 @@ int main( int argc, char **argv ) {
 
     map.insert(b1->getISBN(),b1);
     map.insert(b2->getISBN(),b2);
-    map.insert(b3->getISBN(),b3);
+    map.insert(b3->getISBN(),b3); //Override b1 because the isbn is the same 
     map.insert(b4->getISBN(),b4);
     map.insert(b5->getISBN(),b5);
 

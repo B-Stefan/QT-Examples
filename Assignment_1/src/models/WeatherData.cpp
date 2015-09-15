@@ -7,8 +7,9 @@
 #include <QObject>
 #include <QVariant>
 #include <QDebug>
+#include <iostream>
 WeatherData::WeatherData() :QObject() {
-    qDebug() << "Constructor";
+    std::cout << "Constructor" << std::endl;
 }
 WeatherData::~WeatherData() {
     qDebug() << "Deconstructor: ";

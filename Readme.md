@@ -29,16 +29,16 @@ Requirements
     
 ###Windows-Setup
 
-**Not tested jet! **
+**Not tested jet!**
 
 1. install required software 
     Follow the instructions: 
-        * http://www.cmake.org/install/
-        * http://doc.qt.io/qt-5/gettingstarted.html
+    * http://www.cmake.org/install/
+    * http://doc.qt.io/qt-5/gettingstarted.html
     
 
 ###Linux-Setup
-**Not tested jet! **
+**Not tested jet!**
 
 1. Install required software
     ```

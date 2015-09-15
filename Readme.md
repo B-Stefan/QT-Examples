@@ -42,6 +42,7 @@ Requirements
 **Not tested jet!**
 
 1. Install required software
+2. 
     ```
         sudo apt-get install cmake
         sudo apt-get install qt5-default qttools5-dev-tools

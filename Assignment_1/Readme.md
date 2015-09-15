@@ -31,5 +31,11 @@ But for some tasks they are necessary and very fast.
 After this task I was a little bit confused because QT did not delte the books before the program destroyed. 
 So I decide to do this manual, in the [Task 4](#Task 4 - Classes)
 
+In the example data is one key used twice this is the reason why on the screenshot only 4 books shown 
+
 ##Task 4 - Classes
+
+Create a c++ class that inherits from GObject and separate definition and implementation of this class (.cpp- and .h file)
+
+![Image](../results/Result-1-1-4.png?raw=true)
 

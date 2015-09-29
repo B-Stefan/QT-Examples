@@ -3,11 +3,18 @@
 * Autor:    Stefan Bieliauskas
 * Date:     29.09.2015
 
-All results can find in the [results](../../results) folder as screenshots.
-For further information read the [Readme.md](../../Readme.md)
+All results can find in the [results](../results) folder as screenshots.
+For further information read the [Readme.md](../Readme.md)
+
+
 
 
 ## Task 1 - Text Editor – version 1 & 2
+
+To run the program in the main folder (../)
+```
+    cmake --target QT-Assignments-Assignment-2-TextEditor
+```
  
 The fist version of the Text Editor includes the basic load and save functions 
 For example the following functions 

@@ -27,7 +27,7 @@ if (APPLE)
     set_source_files_properties(AppIcon.icns PROPERTIES MACOSX_PACKAGE_LOCATION Resources)
 endif ()
 
-add_executable("${PROJECT}-Assignment-2-1" MACOSX_BUNDLE
+add_executable("${PROJECT}-Assignment-2-TextEditor" MACOSX_BUNDLE
     ${SOURCE_FILES}
     ${UI_HEADERS}
     ${UI_FILES}
@@ -35,10 +35,10 @@ add_executable("${PROJECT}-Assignment-2-1" MACOSX_BUNDLE
 )
 
 
-qt5_use_modules("${PROJECT}-Assignment-2-1" Widgets)
+qt5_use_modules("${PROJECT}-Assignment-2-TextEditor" Widgets)
 
 if (MSVC)
-    set_target_properties("${PROJECT}-Assignment-2-1"  PROPERTIES
+    set_target_properties("${PROJECT}-Assignment-2-TextEditor"  PROPERTIES
         WIN32_EXECUTABLE YES
         LINK_FLAGS "/ENTRY:mainCRTStartup"
     )

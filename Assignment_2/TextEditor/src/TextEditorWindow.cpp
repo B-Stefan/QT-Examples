@@ -89,6 +89,11 @@ void TextEditorWindow::createActions() {
 
 void TextEditorWindow::closeEvent(QCloseEvent *event) {
 
+    if(this->currentFileName == nullptr){
+        event->ignore();
+        QMessageBox::information(this,"Error", "Please save file first");
+    }
+
 }
 void TextEditorWindow::about() {
     QMessageBox::about(0, "About", "Always pass on what you learned ");
@@ -98,6 +103,8 @@ void TextEditorWindow::newFile() {
     TextEditorWindow * newWindow = new TextEditorWindow(this->parentWidget(),this->windowFlags());
     newWindow->move(0,-300);
     newWindow->show();
+
+    QMessageBox::information(newWindow,"File created", "New file successful created");
 }
 
 void TextEditorWindow::openFile() {
@@ -126,6 +133,7 @@ void TextEditorWindow::saveFile() {
 }
 
 void TextEditorWindow::openFindAndReplace() {
+
     FindAndReplace * findAndReplace = new FindAndReplace(this,this->textEdit);
     findAndReplace->move(0,400);
     findAndReplace->show();

@@ -41,3 +41,13 @@ for mor information see the file "FindAndReplace.cpp"
 ![Image](../results/Result-2-3-1.png?raw=true)
 
 ![Image](../results/Result-2-3-2.png?raw=true)
+
+
+## Task 2 - Image Viewer
+
+During this task I had no problems, scaling and loading of the images works fine. 
+
+![Image](../results/Result-2-4-1.png?raw=true)
+
+![Image](../results/Result-2-4-2.png?raw=true)
+

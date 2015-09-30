@@ -51,3 +51,7 @@ During this task I had no problems, scaling and loading of the images works fine
 
 ![Image](../results/Result-2-4-2.png?raw=true)
 
+
+### Images 
+
+The images are form [unsplash](http://unsplash.com) and published under the [Creative Commons Zero](http://creativecommons.org/publicdomain/zero/1.0/)

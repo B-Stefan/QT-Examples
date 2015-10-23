@@ -21,3 +21,14 @@ I created the following mockup for the basic ui
 
 
 ## 2. Programming 
+
+The progaming was quite complicated because the QTFramework give so many possibilities for simple animation but is not a real game framework. 
+For a simple game you need more knowledge of the structure and behaviour of the QWidget and Layout system as for other real game frameworks or a game witout framework. 
+But after a couple of hours I finally got the right idea to get it working. 
+I used the QWidget and draw the widgets on a QGraphicsView, so I was for example able to use the collision detection from QT. That was a nice benefit. 
+
+
+##3. Result 
+The result you see in the next gif. 
+
+![Image](../results/Result-3-1-3-game.gif?raw=true)

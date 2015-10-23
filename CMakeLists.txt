@@ -24,4 +24,5 @@ set(MACOSX_BUNDLE_ICON_FILE AppIcon.icns)
 # Add sub projects
 add_subdirectory("Assignment_1")
 add_subdirectory("Assignment_2")
+add_subdirectory("Assignment_3")
 add_subdirectory("_example")
